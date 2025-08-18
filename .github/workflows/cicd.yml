@@ -31,7 +31,7 @@ jobs:
       - name: Build the project
         run: |
           npm run build
-          cp dist/index.html dist/404.html   # 👈 Fix for React Router refresh issue
+         
 
       # Configure Git identity
       - name: Configure Git
